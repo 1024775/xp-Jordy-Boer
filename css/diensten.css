@@ -1,0 +1,508 @@
+html {
+    width: 100%;
+    height: 200%;
+    background-color:white;
+}
+body{
+    width: 99%;
+    height: 96%;
+    background-color: white;
+}
+
+.parallax {
+    background-image: url("../images/hacker-1944688.jpg");
+    min-height: 550px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(0% 0%, 0% 71%, 100% 100%, 100% 48%, 47% 0);
+    width: 101%;
+}
+
+#container{
+    width: 50%;
+    margin-top: 4%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tekstvak {
+    padding: 5px;
+    font-family: "expletus sans" , cursive;
+    color: gray;
+}
+
+#gradient{
+    z-index: 0;
+    width: 99%;
+    height: 7%;
+}
+
+.parallax2 {
+    background-image: url("../images/technology-2025795.jpg");
+    min-height: 550px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(0% 100%, 0 100%, 100% 100%, 100% 0%, 0 24%, 0 24%);
+    width: 101%;
+}
+
+.footer{
+    background-color: #292c2f;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 55px 50px;
+    width: 100%;
+    height: 17%;
+}
+
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right{
+    display: inline-block;
+    vertical-align: top;
+    horiz-align: left;
+}
+
+/* Footer left */
+
+.footer .footer-left{
+    width: 40%;
+}
+
+/* The company logo */
+
+.footer h3{
+    color:  #ffffff;
+    font: normal 36px 'Cookie', cursive;
+    margin: 0;
+}
+
+.footer h3 span{
+    color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer .footer-links{
+    color:  #ffffff;
+    margin: 20px 0 12px;
+    padding: 0;
+}
+
+.footer .footer-links a{
+    display:inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color:  inherit;
+}
+
+.footer .footer-company-name{
+    color:  #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Footer Center */
+
+.footer .footer-center{
+    width: 35%;
+}
+
+.footer .footer-center i{
+    background-color:  #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer .footer-center i.fa-envelope{
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer .footer-center p{
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin:0;
+}
+
+.footer .footer-center p span{
+    display:block;
+    font-weight: normal;
+    font-size:14px;
+    line-height:2;
+}
+
+.footer .footer-center p a{
+    color:  #5383d3;
+    text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer .footer-right{
+    width: 20%;
+}
+
+.footer .footer-company-about{
+    line-height: 20px;
+    color:  #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer .footer-company-about span{
+    display: block;
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer .footer-icons{
+    margin-top: 25px;
+}
+
+.footer .footer-icons a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color:  #33383b;
+    border-radius: 2px;
+
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+.btn{
+    margin-left: 36%;
+    color: #fff;
+    border-radius: 4px;
+    text-transform: uppercase;
+    background-color: #2196F3;
+    font-weight: 800;
+    text-align: center;
+    padding: 20px 46px;
+    margin-top: 5px;
+}
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+    .footer{
+        width: 110%;
+        height: 40%;
+
+
+    }
+
+    .footer .footer-center p{
+        color: #ffffff;
+        vertical-align: middle;
+        margin:0;
+    }
+
+    .footer .footer-icons{
+        margin-top: 25px;
+    }
+
+
+    .footer .footer-center{
+        width: 60%;
+    }
+
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+    header{
+
+        width: 110%;
+    }
+
+    .features{
+
+        width: 110%;
+
+    }
+
+    .upperimage{
+
+        width: 110%;
+
+    }
+
+    .footer{
+        width: 110%;
+        height: 50%;
+
+
+    }
+
+    .footer .footer-center p{
+        color: #ffffff;
+        vertical-align: middle;
+        margin:0;
+    }
+
+    .footer .footer-icons{
+        margin-top: 25px;
+    }
+
+
+    .footer .footer-center{
+        width: 60%;
+    }
+
+    .parallax{
+
+        width: 110%;
+
+    }
+
+
+    .parallax2{
+
+        width: 110%;
+
+    }
+
+    .btn{
+
+        margin-left: 0;
+
+    }
+
+
+}
+
+@media only screen and (max-width : 360px) {
+
+
+    .footer{
+        width: 110%;
+        height: 58%;
+
+
+    }
+
+    header nav {
+        display: block;
+    }
+
+    header nav li{
+
+        margin: 0;
+
+    }
+
+
+    .btn{
+
+        margin-left: 0;
+
+    }
+
+    .parallax{
+
+        width: 110%;
+
+    }
+
+
+    .parallax2{
+
+        width: 110%;
+
+    }
+
+    .footer .footer-center i{
+
+        margin: 0;
+
+    }
+
+}
+
+@media only screen and (max-width : 375px) {
+    header{
+
+        width: 110%;
+    }
+
+    .features{
+
+        width: 110%;
+
+    }
+
+    .upperimage{
+
+        width: 110%;
+
+    }
+
+
+    .footer .footer-center p{
+        color: #ffffff;
+        vertical-align: middle;
+        margin:0;
+        display: inherit;
+    }
+
+    .logo{
+
+        width: 246px;
+        height: 60px;
+
+    }
+
+    header nav {
+        display: block;
+    }
+
+    header nav li{
+
+        margin: 0;
+
+    }
+
+    #subject{
+
+        width: 200px;
+
+    }
+
+    #email{
+
+        width: 200px;
+
+    }
+
+    #name{
+        width: 130px;
+    }
+
+    #surname-container {
+
+        display: none;
+
+    }
+
+
+    #surname{
+
+        width: 170px;
+
+    }
+    #name{
+
+        width: 200px;
+
+    }
+
+    #clearbutton{
+
+        width: 200px;
+
+    }
+
+    #sendbutton{
+
+        width: 200px;
+
+    }
+
+    .parallax{
+
+        width: 110%;
+
+    }
+
+    .parallax2{
+
+        width: 110%;
+
+    }
+
+    .btn{
+
+        margin-left: 0;
+
+    }
+
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+    .footer .footer-center p{
+        color: #ffffff;
+        vertical-align: middle;
+        margin:0;
+        display: inherit;
+    }
+
+    .logo{
+
+        width: 246px;
+        height: 60px;
+
+    }
+
+
+    .footer{
+        width: 110%;
+        height: 61%;
+
+
+    }
+
+
+
+    .btn{
+
+        margin-left: 0;
+
+    }
+
+}
