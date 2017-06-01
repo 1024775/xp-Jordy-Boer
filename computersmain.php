@@ -20,7 +20,7 @@
     <title>Diensten</title>
 </head>
 <body>
-<h2 style="margin-bottom: 30px;"><a href="index.html" class="headingHackware">ID<span style="color: red">Custom</span>Hardware</a></h2>
+<h2 style="margin-bottom: 30px;"><a href="index.php" class="headingHackware">ID<span style="color: red">Custom</span>Hardware</a></h2>
 
 
 
@@ -31,21 +31,20 @@
     <div class="menu-wrap" >
         <nav class="menu">
             <ul class="clearfix">
-                <li class="active"><a href="index.html">Home</a></li>
+                <li class="active"><a href="index.php">Home</a></li>
                 <li>
-                    <a  href="computersmain.html">Computers <span class="arrow">&#9660;</span></a>
+                    <a  href="computersmain.php">Computers <span class="arrow">&#9660;</span></a>
 
                     <ul class="sub-menu">
-                        <li><a href="bureaupcs.html">Bureau pc's</a></li>
-                        <li><a href="#">Gamepc's</a></li>
-                        <li><a href="#">Htpcs</a></li>
-                        <li><a href="#">Mining pc's</a></li>
+                        <li><a href="bureaupcs.php">Bureau pc's</a></li>
+                        <li><a href="gamepc.php">Gamepc's</a></li>
+                        <li><a href="htpc.php">Htpcs</a></li>
+                        <li><a href="minepc.php">Mining pc's</a></li>
                         <li><a href="#">Randapparatuur</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Login</a></li>
-                <li><a href="#">Registreren</a></li>
+                <li><a href="contact.php">Contact</a></li>
+                <li><a href="nieuwklant.php">Registreren</a></li>
             </ul>
         </nav>
     </div>
@@ -109,14 +108,16 @@
 
 
         <p class="footer-links">
-            <a href="index.html">Home</a>
+            <a href="index.php">Home</a>
             ·
-            <a href="computersmain.html">Diensten</a>
+            <a href="computersmain.php">Computers</a>
             ·
             <a href="contact.php">Contact</a>
+            ·
+            <a href="nieuwklant.php">Registreren</a>
         </p>
 
-        &copy; 2017<h2 style="margin-bottom: 30px;"><a href="index.html" class="headingHackware">ID<span style="color: red">Custom</span>Hardware</a></h2>
+        &copy; 2017<h2 style="margin-bottom: 30px;"><a href="index.php" class="headingHackware">ID<span style="color: red">Custom</span>Hardware</a></h2>
 
     </div>
 
@@ -124,7 +125,7 @@
 
         <div>
             <i class="fa fa-phone"></i>
-            <p>Tel. nummer hier</p>
+            <p>079-13572468</p>
         </div>
 
         <div>
